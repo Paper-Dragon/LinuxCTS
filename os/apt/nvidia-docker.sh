@@ -213,7 +213,7 @@ if [[ ! -z "$NVIDIA_PRESENT" ]]; then
     nvidia-smi
 fi
 
-# curl -SsL get-docker.geekery.cn | bash
+curl -SsL get-docker.geekery.cn | bash
 
 # Test / Install nvidia-docker
 if [[ ! -z "$NVIDIA_PRESENT" ]]; then
