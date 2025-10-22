@@ -168,7 +168,7 @@ else
         if [[ "$answer" =~ ^[Yy][Ee][Ss]$ ]]; then
             echo -e "\033[5;33m 当前系统 安装完 Nvidia显卡驱动 需要重启\033[0m"
             echo -e "\033[5;33m 5秒之后系统将会, 重启..... \033[0m"
-            countdown_sleep 5
+            sleep 5
             reboot
         elif [[ "$answer" =~ ^[Nn][Oo]$ ]]; then
             echo "取消系统重启"
